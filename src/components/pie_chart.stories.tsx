@@ -13,10 +13,10 @@ storiesOf(
     module,
 ).add('Demonstrate simple data passed to chart', (): JSX.Element => {
     return (
-        <PieChart
-            data={[ { id: 'Test', value: 100 } ]}
-            width={100}
-            height={100}
-        />
+        <div style={{ width: "100%", height: "100vh" }}>
+            <PieChart
+                data={[ { id: 'Test', value: 100, label: "Test", color: "hsl(256, 70%, 50%)" } ]}
+            />
+        </div>
     )
 })
