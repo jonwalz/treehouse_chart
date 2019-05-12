@@ -8850,6 +8850,10 @@ react-fast-compare@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
 
+react-fetching-library@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-fetching-library/-/react-fetching-library-1.2.2.tgz#370f83761f041ca4286a5a79185a45ab6131c1ef"
+
 react-focus-lock@^1.17.7:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/react-focus-lock/-/react-focus-lock-1.19.1.tgz#2f3429793edaefe2d077121f973ce5a3c7a0651a"
