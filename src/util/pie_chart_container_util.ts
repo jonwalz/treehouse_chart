@@ -6,7 +6,7 @@ const getLanguageData = (resp: any) => {
             ? [
                   ...acc,
                   {
-                      id: `${language}-${index}`,
+                      id: `${language}`,
                       label: `${language}`,
                       value: points,
                   },
