@@ -10,7 +10,7 @@ export const ChartContainer = (): JSX.Element => {
     const transformedData = getLanguageData(payload)
 
     return (
-        <div style={{ width: '100%', height: '50vh' }}>
+        <div style={{ width: '100%', height: '80vh' }}>
             <h3 style={{textAlign: "center"}}>Treehouse Points</h3>
             <PieChart data={transformedData} error={error} />
         </div>
