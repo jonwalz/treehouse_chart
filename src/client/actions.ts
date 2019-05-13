@@ -1,6 +1,6 @@
 import { Action } from "react-fetching-library";
 
-export const fetchData: Action = {
+export const fetchPoints: Action = {
     method: 'GET',
-    endpoint: '/',
+    endpoint: 'http://localhost:8080/points',
 }
