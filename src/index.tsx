@@ -7,14 +7,12 @@ import { ChartContainer } from './components/pie_chart_container'
 
 import './styles.css'
 
-fetch('https://teamtreehouse.com/jonathanwalz.json')
-.then(res => res.json())
-.then(data => console.log(data))
-
 function App() {
     return (
         <ClientContextProvider client={Client}>
-            <ChartContainer />
+            <Suspense fallback={<div>spinner</div>}>
+                <ChartContainer />
+            </Suspense>
         </ClientContextProvider>
     )
 }
