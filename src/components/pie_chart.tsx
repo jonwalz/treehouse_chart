@@ -6,7 +6,7 @@ interface PieChartProps {
     readonly error?: any
 }
 
-export const PieChart = ({ data, error }: PieChartProps) => {
+export const PieChart = ({ data }: PieChartProps) => {
     return (
         <ResponsivePie
             data={data}

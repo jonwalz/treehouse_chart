@@ -4,7 +4,7 @@ describe("Confirm getLanguageData", () => {
     test("Should remove key of total from remote data", () => {
         const actual = getLanguageData(mockLanguageData)
         const expected = [{
-            "id": "javascript-1",
+            "id": "javascript",
             "label": "javascript",
             "value": 345,
         }]
@@ -15,7 +15,7 @@ describe("Confirm getLanguageData", () => {
 	test("Should remove objects with value of 0", () => {
         const actual = getLanguageData(mockLanguageDataWithZero)
         const expected = [{
-            "id": "javascript-1",
+            "id": "javascript",
             "label": "javascript",
             "value": 345,
         }]
