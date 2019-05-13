@@ -4,13 +4,13 @@ import { render } from 'react-dom'
 import { ClientContextProvider } from 'react-fetching-library'
 import { Client } from './client/api'
 import { ChartContainer } from './components/pie_chart_container'
-
+import Spinner from "./components/spinner"
 import './styles.css'
 
 function App() {
     return (
         <ClientContextProvider client={Client}>
-            <Suspense fallback={<div>spinner</div>}>
+            <Suspense fallback={<Spinner />}>
                 <ChartContainer />
             </Suspense>
         </ClientContextProvider>
