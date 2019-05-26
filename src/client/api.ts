@@ -1,7 +1,6 @@
 import { createClient, Action, ResponseInterceptor} from 'react-fetching-library'
 
 export const responseInterceptor = (client: any) => async (action: Action, response: any) => {
-    debugger
     if (response.payload.data) {
       return {
         ...response,
